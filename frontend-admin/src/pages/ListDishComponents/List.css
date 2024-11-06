@@ -1,0 +1,78 @@
+.dish-components {
+  
+    max-width: 900px; /* Définir la largeur maximale */
+    max-height: 800px; /* Définir la hauteur maximale */
+    width: 100%; /* Faire en sorte que la largeur prenne tout l'espace disponible jusqu'à max-width */
+    height: auto; /* Ajuster la hauteur selon le contenu */
+    padding: 20px;
+    margin: 0 auto; /* Centrer le container */
+    background-color: #f8f9fa; /* Couleur de fond */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 10px; /* Coins arrondis */
+    overflow-y: auto; /* Ajouter un défilement vertical si le contenu dépasse la hauteur maximale */
+  }
+
+
+.dish-components-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dish-components-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dish-components-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-components-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.input-field {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.add-button, .update-button, .edit-button, .delete-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+}

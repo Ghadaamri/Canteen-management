@@ -1,0 +1,118 @@
+/* Reservation.css */
+
+.reservation-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.reservation-table th,
+.reservation-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservation-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reservation-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.reservation-table tr:hover {
+  background-color: #ddd;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-comment,
+.btn-submit,
+.btn-cancel {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-comment {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.edit-form-container,
+.comment-form-container {
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.edit-form-container h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.edit-form-container label,
+.comment-form-container label {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+}
+
+.edit-form-container input[type="date"],
+.edit-form-container input[type="text"],
+.edit-form-container select,
+.comment-form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edit-form-container button,
+.comment-form-container button {
+  margin-top: 10px;
+}

@@ -1,0 +1,99 @@
+/* Container for the entire result section */
+.result-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Title of the result section */
+.result-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Label and input for date selection */
+.result-container label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.result-container input[type="date"] {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Section headers for sandwich and dish components */
+.result-container h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.result-container h3 {
+  font-size: 1.25rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* List styling for showing totals */
+.result-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result-container li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.result-container li:nth-child(odd) {
+  background-color: #eee;
+}
+
+.result-container li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Message when no data is available */
+.result-container .no-data {
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
+/* Style for the export button */
+.btn-export {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-export:hover {
+  background-color: #45a049;
+}
+

@@ -1,0 +1,17 @@
+.calendar-container {
+  height: 100vh; /* 100% de la hauteur de la fenêtre */
+  width: 100vw; 
+}
+
+.form-container {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+

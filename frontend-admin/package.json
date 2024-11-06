@@ -1,0 +1,66 @@
+{
+  "name": "food-del-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "axios": "^1.6.7",
+    "file-saver": "^2.0.5",
+    "food-del-admin": "file:",
+    "glob": "^11.0.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "lru-cache": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-toastify": "^10.0.4",
+    "rimraf": "^6.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.0"
+  },
+  "proxy": {
+    "/app1": {
+      "target": "http://localhost:5173",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/app1": ""
+      }
+    },
+    "/app2": {
+      "target": "http://localhost:5174",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/app2": ""
+      }
+    },
+    "/app3": {
+      "target": "http://localhost:5175",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/app3": ""
+      }
+    }
+  }
+}
